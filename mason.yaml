@@ -6,9 +6,13 @@ bricks:
   # Uncomment the following line to import the "hello" brick from BrickHub.
   # hello: 0.1.0+1
   ffcore_tab:
-    path: bricks/ffcore_tab
+    git:
+      url: https://github.com/niamulhasan/feature-first-flutter-clean-architecture/mason.yaml
+      path: bricks/ffcore_tab
   feature_first_flutter:
-    path: bricks/feature_first_flutter
+    git:
+      url: https://github.com/niamulhasan/feature-first-flutter-clean-architecture/mason.yaml
+      path: bricks/feature_first_flutter
   # Bricks can also be imported via remote git url.
   # Uncomment the following lines to import the "widget" brick from git.
   # widget:
