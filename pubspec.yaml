@@ -1,0 +1,34 @@
+name: islam_pro
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  flutter: 
+    sdk: flutter
+  shared_preferences: ^2.2.2
+  salomon_bottom_bar: ^3.3.2
+
+dev_dependencies: 
+  flutter_lints: 3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+
+  assets:
+    - assets/graphics/
+    - assets/graphics/light/
+    - assets/graphics/light/icons/
+    - assets/graphics/dark/
+    - assets/graphics/dark/icons/
+    - assets/graphics/app_icon/
+
+
+
