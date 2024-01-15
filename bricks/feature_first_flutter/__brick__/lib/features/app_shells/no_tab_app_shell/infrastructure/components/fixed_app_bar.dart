@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import '../../../../../core/features/themes/domain/entities/app.assets.dart';
+import '../../../../../core/core_features/themes/domain/entities/app.assets.dart';
 import '../../domain/entities/app_app_bar.dart';
 
 class FixedAppAppBar extends StatelessWidget implements AppAppBar {

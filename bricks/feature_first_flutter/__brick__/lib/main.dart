@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'core/features/themes/domain/repositories/themes_repository.dart';
-import 'core/features/themes/infrastructure/repositories/app_default_themes.repository.dart';
-import 'core/features/user_local_settings/domain/repositories/user_local_settings.repository.dart';
+import 'core/core_features/themes/domain/repositories/themes_repository.dart';
+import 'core/core_features/translation/domain/repositories/app_translations_repository.dart';
+import 'core/core_features/user_local_settings/domain/repositories/user_local_settings.repository.dart';
 import 'core/utils/dependency_locator.dart';
-import 'core/features/translation/domain/repositories/app_translations_repository.dart';
-import 'core/features/translation/infrastructure/repositories/bangla_english_translation_repository.dart';
 import 'core/utils/if_found.dart';
 import 'init.dart';
 
