@@ -1,9 +1,11 @@
 
 import 'package:get/get.dart';
-import '../../../core/interfaces/bindings/feature/features/tab_bar_attachable.dart';
-import '../../../core/providers/view/view_providers/tab_bar/app_tab_view.dart';
-import '../presentation/controllers/settings_tab.controller.dart';
-import '../presentation/settings.tab.dart';
+import 'package:flutter/material.dart';
+import '../../../core/domain/entities/app_bottom_bar_item.dart';
+import '../../../core/domain/entities/app_tab_view.dart';
+import '../../../core/infrastructure/feature/features/tab_bar_attachable.dart';
+import '../presentation/{{name.snakeCase()}}.tab.dart';
+import '../presentation/controllers/{{name.snakeCase()}}_tab.controller.dart';
 
 class {{name.pascalCase()}}Bindings implements BindingsTabBarAttachable {
   @override
@@ -12,5 +14,5 @@ class {{name.pascalCase()}}Bindings implements BindingsTabBarAttachable {
   }
 
   @override
-  AppTabView tabView = const {{name.pascalCase()}}Tab();
+  AppTabView<AppBottomBarItem, Widget> tabView = const {{name.pascalCase()}}Tab();
 }
